@@ -1,0 +1,33 @@
+﻿ @font-face {
+            font-family: Bebas;
+            src: url(BEBAS__.ttf);
+        }
+
+body {
+}
+
+.title{
+    font-family: Bebas;
+    font-size: xx-large;
+    color: #FFFFFF;
+}
+
+.heading1 {
+    font-family: Bebas;
+    font-size: x-large;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.heading2{
+    font-family: Bebas;
+    font-size: large;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.text {
+    font-family: Arial;
+    font-size: large;
+    color: #FFFFFF;
+}

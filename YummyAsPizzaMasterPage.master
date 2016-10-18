@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="YummyAsPizzaMasterPage.master.cs" Inherits="YummyAsPizzaMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="YummyAsPizzaStyleSheet.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="background-image: url('/YummyAs Pizza/Images/Background.png'); background-repeat: repeat">
+        <table style="width: 100%;">
+            <tr>
+                <td class="auto-style1" style="background-color: #C0C0C0; text-align: right;">
+                    <asp:Image ID="Image1" runat="server" ImageAlign="Left" ImageUrl="~/Images/Logo.png" />
+                    <span class="header2">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    </span><span class="title">&quot;Nothing is as YummyAs&quot;&nbsp;&nbsp; </span></td>
+            </tr>
+        </table>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                <p>
+                    <br />
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+        </asp:ContentPlaceHolder>
+        <table style="width: 100%;">
+            <tr>
+                <td class="auto-style1" style="background-color: #C0C0C0; text-align: right;">
+                    <span class="heading1">Come Visit us in store. <br />
+                    give us a call. 
+                    <br />
+                    catering options available.</span></td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
